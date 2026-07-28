@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">📼 AI YouTube Video Analyzer</h1>
+  <h1 align="center">📼 AI YouTube Video Content Analyzer</h1>
   <p align="center">
     Drop a YouTube link. Get a structured breakdown with timestamps, key topics, and takeaways — in seconds.
   </p>
@@ -52,7 +52,7 @@ This tool reads the video transcript, understands the content structure, and giv
 ## Project Structure
 
 ```
-Youtube_Video_Analyzer/
+AI_Youtube_Video_Content_Analzyer/
 ├── ui.py                  # Streamlit frontend — layout, styling, video preview, report display
 ├── youtube_analyzer.py    # AI agent definition — model config, tools, system prompt
 ├── requirements.txt       # Python dependencies
@@ -74,8 +74,8 @@ Youtube_Video_Analyzer/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/sanjaynayak1224/Youtube_Video_Analyzer.git
-cd Youtube_Video_Analyzer
+git clone https://github.com/sanjaynayak1224/AI_Youtube_Video_Content_Analzyer.git
+cd AI_Youtube_Video_Content_Analzyer
 ```
 
 ### 2. Install dependencies

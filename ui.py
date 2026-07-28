@@ -3,7 +3,7 @@ from youtube_analyzer import build_youtube_agent
 
 
 st.set_page_config(
-    page_title="Youtube Video Analyzer",
+    page_title="AI YouTube Video Content Analyzer",
     page_icon="📼",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -35,7 +35,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("📼AI Youtube Video Analyzer")
+st.title("📼 AI YouTube Video Content Analyzer")
 st.caption("🚀 Instant AI Summaries, Key Takeaways & Timestamped Topics powered by Agno & Groq")
 
 # Sidebar with Instructions & Features
