@@ -62,14 +62,13 @@ def get_agent():
 
 agent = get_agent()
 
-col1, col2 = st.columns([3, 1])
+col1, col2 = st.columns([3, 1], vertical_alignment="bottom")
 
 with col1:
     # input box
     video_url = st.text_input("Enter any Youtube Video's Link", placeholder="https://www.youtube.com/watch?v=...")  # stored as string
 
 with col2:
-    st.write("##")
     # The button is stored in the form of True or False
     button = st.button("Analyze the Video", type="primary")
 
