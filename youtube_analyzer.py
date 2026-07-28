@@ -4,16 +4,17 @@ from agno.agent import Agent
 from agno.models.groq import Groq
 from agno.tools.youtube import YouTubeTools
 
+import os
 from dotenv import load_dotenv
 
 load_dotenv()
 
 
-def build_youtube_agent():
+def build_youtube_agent(model_id: str = "openai/gpt-oss-120b"):
 
     return Agent(
         name="YouTube Agent",
-        model=Groq(id="openai/gpt-oss-120b"),
+        model=Groq(id=model_id),
         tools=[YouTubeTools()],
         instructions=dedent("""\
           You are an expert YouTube content analyst with a keen eye for detail.
