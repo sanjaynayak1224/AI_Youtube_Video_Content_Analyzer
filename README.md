@@ -4,7 +4,13 @@
     Drop a YouTube link. Get a structured breakdown with timestamps, key topics, and takeaways — in seconds.
   </p>
   <p align="center">
+    <a href="https://youtube-video-content-analyzer.streamlit.app/"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App"/></a>
+  </p>
+  <p align="center">
     Built with <a href="https://docs.agno.com/">Agno</a> · <a href="https://groq.com/">Groq</a> · <a href="https://streamlit.io/">Streamlit</a>
+  </p>
+  <p align="center">
+    🌐 <strong>Live Demo:</strong> <a href="https://youtube-video-content-analyzer.streamlit.app/">youtube-video-content-analyzer.streamlit.app</a>
   </p>
 </p>
 
@@ -52,7 +58,7 @@ This tool reads the video transcript, understands the content structure, and giv
 ## Project Structure
 
 ```
-AI_Youtube_Video_Content_Analzyer/
+AI_Youtube_Video_Content_Analyzer/
 ├── ui.py                  # Streamlit frontend — layout, styling, video preview, report display
 ├── youtube_analyzer.py    # AI agent definition — model config, tools, system prompt
 ├── requirements.txt       # Python dependencies
@@ -73,9 +79,11 @@ AI_Youtube_Video_Content_Analzyer/
 
 ### 1. Clone the repo
 
+> 💡 **Try it online first:** You don't need to set up anything locally to test it. Try the live hosted app at [youtube-video-content-analyzer.streamlit.app](https://youtube-video-content-analyzer.streamlit.app/).
+
 ```bash
-git clone https://github.com/sanjaynayak1224/AI_Youtube_Video_Content_Analzyer.git
-cd AI_Youtube_Video_Content_Analzyer
+git clone https://github.com/sanjaynayak1224/AI_Youtube_Video_Content_Analyzer.git
+cd AI_Youtube_Video_Content_Analyzer
 ```
 
 ### 2. Install dependencies
