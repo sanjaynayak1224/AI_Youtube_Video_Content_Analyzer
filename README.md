@@ -163,12 +163,6 @@ Contributions are welcome. If you want to add features, fix bugs, or improve the
 
 ---
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
 <p align="center">
   Built by <a href="https://github.com/sanjaynayak1224">Sanjay Nayak</a>
 </p>
