@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center">📼 AI YouTube Video Content Analyzer</h1>
   <p align="center">
-    Drop a YouTube link. Get a structured breakdown with timestamps, key topics, and takeaways — in seconds.
+    Drop a YouTube link. Get a structured breakdown with timestamps, key topics, and takeaways in seconds.
   </p>
   <p align="center">
     <a href="https://youtube-video-content-analyzer.streamlit.app/"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App"/></a>
